@@ -20,7 +20,7 @@ export default function WorkWithUs() {
   };
 
   return (
-    <section className="relative min-h-screen overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+    <section className="relative min-h-screen overflow-hidden py-10 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
       {/* Animated Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-gradient-to-r from-[#1d6fb8] to-[#f5a623] opacity-20"></div>
@@ -101,7 +101,7 @@ export default function WorkWithUs() {
               Work With
             </span>
             <br />
-            <span className="bg-gradient-to-r from-[#1d6fb8] to-[#f5a623] bg-clip-text text-transparent">
+            <span className="bg-[#f5a623] bg-clip-text text-transparent">
               Grand Omega City
             </span>
           </h2>

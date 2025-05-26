@@ -138,7 +138,7 @@ export default function Footer() {
           {/* Company Brand Section */}
           <div className="lg:col-span-2 space-y-6">
             <div>
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-[#1d6fb8] to-[#f5a623] bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl font-bold bg-[#f5a623] bg-clip-text text-transparent mb-4">
                 Grand Omega City
               </h3>
               <p className="text-slate-300 leading-relaxed max-w-md">
@@ -247,7 +247,7 @@ export default function Footer() {
                 placeholder="Enter your email address"
                 className="flex-1 px-4 py-3 bg-slate-800 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:border-[#1d6fb8] focus:ring-2 focus:ring-[#1d6fb8]/20 transition-all duration-300"
               />
-              <button className="px-6 py-3 bg-gradient-to-r from-[#1d6fb8] to-[#f5a623] text-white font-semibold rounded-lg hover:from-[#1d6fb8]/90 hover:to-[#f5a623]/90 transition-all duration-300 transform hover:scale-105">
+              <button className="px-6 py-3 bg-[#1d6fb8] text-white font-semibold rounded-lg hover:bg-[#1d6fb8]/90 transition-all duration-300 transform hover:scale-105">
                 Subscribe
               </button>
             </div>
