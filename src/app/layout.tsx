@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/shared/Header";
-import Footer from "@/components/shared/Footer";
 import WhatsAppButton from "@/components/WhatsAppPopup";
 
 const geistSans = Geist({
@@ -31,10 +29,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        <WhatsAppButton /> 
-        {children}
-        <Footer />
+        <WhatsAppButton />
+        <div className="min-h-screen">{children}</div>
       </body>
     </html>
   );
